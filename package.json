@@ -1,6 +1,6 @@
 {
   "name": "node-openjtalk",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Japanese text-to-speech engine binding for NodeJS",
   "keywords": [
     "OpenJTalk",
