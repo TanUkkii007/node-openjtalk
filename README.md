@@ -84,7 +84,7 @@ open_jtalk.synthesize("音声合成するテキスト", function(error, buffer) 
   }
 });
 ```
-The "optionHook" function let you modify synthesis parameters. For example, following code makes speech speed double.
+The "optionHook" function lets you modify synthesis parameters. For example, following code makes speech speed double.
 
 ```js
 open_jtalk.synthesize(text, function(option) {
@@ -118,3 +118,12 @@ node-openjtalk currently supports following platforms.
 + MacOSX/x64
 + linux/ia32
 + linux/x64
+
+## License
+node-openjtalk is licensed under the MIT license. See [LICENSE](https://github.com/TanUkkii007/node-openjtalk/blob/master/LICENSE) for more details.
+
+node-openjtalk builds on [OpenJTalk](http://open-jtalk.sourceforge.net/) and [hts_engine API](http://hts-engine.sourceforge.net/), and is shiped with HTS Voice ["NIT ATR503 M001"](http://open-jtalk.sourceforge.net/) and ["Mei"](http://www.mmdagent.jp/). Thanks for their works.
+
+Both OpenJTalk and hts_engine API are issued under the Modified BSD license.
+
+HTS Voice "NIT ATR503 M001" and "Mei" are both issued under the Creative Commons Attribution 3.0 license.
