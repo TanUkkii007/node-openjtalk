@@ -1,0 +1,33 @@
+{
+  "name": "node-openjtalk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "node-pre-gyp install --build-from-source",
+    "test": "mocha test"
+  },
+  "author": "Yusuke Yasuda",
+  "license": "MIT",
+  "gypfile": true,
+  "dependencies": {
+    "bindings": "^1.2.1",
+    "nan": "^1.8.4",
+    "node-pre-gyp": "^0.6.7"
+  },
+  "bundledDependencies": [
+    "node-pre-gyp"
+  ],
+  "binary": {
+    "module_name": "node_open_jtalk",
+    "module_path": "./lib/binding/{node_abi}-{platform}-{arch}",
+    "remote_path": "./{module_name}/v{version}",
+    "package_name": "{node_abi}-{platform}-{arch}.tar.gz",
+    "host": ""
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.1.33",
+    "mocha": "^2.2.5",
+    "speaker": "^0.2.5"
+  }
+}
