@@ -1,7 +1,16 @@
 {
   "name": "node-openjtalk",
   "version": "1.0.0",
-  "description": "",
+  "description": "Japanese text-to-speech engine binding for NodeJS",
+  "keywords": [
+    "OpenJTalk",
+    "text-to-speech",
+    "Japanese"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:TanUkkii007/node-openjtalk.git"
+  },
   "main": "index.js",
   "scripts": {
     "install": "node-pre-gyp install --build-from-source",
