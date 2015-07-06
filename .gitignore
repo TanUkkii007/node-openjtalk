@@ -1,6 +1,6 @@
 build
 node_modules
-lib
+lib/binding
 .vagrant
 npm-debug.log
 *.o
