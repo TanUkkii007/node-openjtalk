@@ -16,8 +16,6 @@
 #include "open_jtalk_lib.h"
 #include "HTS_hidden.h"
 
-#define DN_DICT "./build/Release"
-
 inline static void ensureLittleEndian(const void *buf, size_t size, size_t n);
 
 struct RiffHeader
