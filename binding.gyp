@@ -1,4 +1,7 @@
 {
+  "variables": {
+    "DN_DICT": "<!(node -e \"process.stdout.write(process.cwd() + '/build/Release')\")"
+  },
   "targets": [
     {
       "target_name": "<(module_name)",
@@ -11,6 +14,9 @@
       ],
       'cflags':[
 
+      ],
+      "defines": [
+        "DN_DICT=\"<(DN_DICT)\""
       ],
       "conditions": [
         ['OS=="mac"', {
