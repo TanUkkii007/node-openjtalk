@@ -3,6 +3,7 @@
 
 ## Requirements
 
++ NodeJS 0.12 (caution: NodeJS >= 4.0 is not supported)
 + [libiconv](http://www.gnu.org/software/libiconv/)
 
 MacOSX users do not need to install libiconv because OSX already includes it.
